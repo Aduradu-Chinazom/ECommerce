@@ -38,3 +38,19 @@
 .disabled {
     cursor: not-allowed;
 }
+
+@media (min-width:320px) and (max-width:480px) {
+    .grid{
+        grid-template-columns: 1fr;
+        padding-top: 50px;
+    }
+    #title{
+        font-size: 1.5rem;
+    }
+    #cat{
+        font-size: 1.3rem;
+    }
+    #price{
+        font-size: 1.3rem;
+    }
+}

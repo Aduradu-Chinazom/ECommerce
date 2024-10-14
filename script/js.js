@@ -90,7 +90,7 @@ let username = localStorage.getItem('Logged_in_user');
                             <img src="${product.image}" alt="" class="img-holder">
                             <div class="cart-details">
                                 <div>
-                                    <span>${product.category}</span>
+                                    <span class="categ">${product.category}</span>
                                     <div class="flex-cart btn">
                                         <button class="minus" data-id="${productId}">-</button>
                                         <p>Qty: <span>${quantity}</span></p>
