@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/login.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid-item bg-img">
+        <div class="overLay"></div>
+      </div>
+      <div class="grid-item flex">
+        <h1>LOG IN</h1>
+        <form id="myForm">
+          <div>
+            <input type="text" placeholder="Username" id="username" />
+            <div class="div">
+              <span id="username_err" class="error"></span>
+            </div>
+          </div>
+          <div>
+            <input type="password" placeholder="Password" id="password" class="password" />
+            <i class="fa-regular fa-eye-slash eye" id="eyeicon"></i>
+            <div class="div">
+              <span id="password_err" class="error"></span>
+            </div>
+          </div>
+          <button type="submit">Submit</button>
+          <p class="switch">Dont have an account? <a href="signup.html">Sign-up</a></p>
+        </form>
+      </div>
+    </div>
+
+    <script src="script/login.js"></script>
+  </body>
+</html>

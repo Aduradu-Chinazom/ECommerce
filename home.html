@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Store</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    
+<body>
+    <div class="fixed">
+        <nav class="nav">
+            <div>
+                <a href="home.html" class="logo">EasyStore</a>
+            </div>
+            <div class="links">
+                <a href="home.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="icon" id="showCart">
+                <div class="count" id="count">0</div>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <div class="autoplay">
+            <div class="hero">
+                <div class="textt"><h1>Jewelery</h1></div>
+                <div><img src="images/qw.jpg" alt="" class="imagee"></div>
+            </div>
+            <div class="hero">
+                <div class="textt"><h1>Electronics</h1></div>
+                <div><img src="images/qwer.jpg" alt="" class="imagee"></div>
+            </div>
+            <div class="hero">
+                <div class="textt"><h1>Clothes</h1></div>
+                <div><img src="images/qwerty.jpg" alt="" class="imagee"></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="begin"><h1>Store</h1></div>
+    <div class="main">
+         <div class="container" id="container">
+            <div class="grid-items">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- cart -->
+     <div class="overlay" id="overlay">
+        <div class="cart-panel" id="cartPanel">
+            <h2>Your Cart</h2>
+    
+            <div id="cartItems"></div>
+            <button id="closeCart">Close</button>
+            <div class="qw">
+                <h3 class="to">Total: </h3>
+                <div class="total">
+                    <h3 class="total_text"></h3>
+                </div>
+            </div>
+            
+    
+         </div>
+     </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h2>Easy Store</h2>
+                <p>Your one-stop shop for the best deals and quality products.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: support@easystore.com</p>
+                <p>Phone: +123-456-7890</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Instagram</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Easy Store. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script/js.js"></script>
+</body>
+</html>

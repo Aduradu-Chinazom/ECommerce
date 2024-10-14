@@ -1,0 +1,91 @@
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Baskervville SC", serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bg-img{
+    background-image: url('../images/qwer.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    background-color: #00000036;
+    width: 100%;
+}
+.grid-item{
+    height: 100vh;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.error{
+    color: red;
+    font-size: .5rem;
+}
+h1{
+    text-align: center;
+    color: #a43820 ;
+    font-size:2rem;
+}
+form{
+    border: .5px solid #ddd;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+input{
+    border: .5px solid #ddd;
+    outline: none;
+    padding: 3px 3px;
+}
+::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    border: none;
+    cursor: pointer;
+    padding: 6px 20px;
+    background-color: #a43820 ;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.eye{
+    font-size: 13px;
+    color: #9b9999;
+    position: relative;
+    left: -30px;
+}
+.switch{
+    font-size: .8rem;
+}
+.switch a{
+    color: #a43820 ;
+    text-decoration: none;
+}
+.guest{
+    font-size: .8rem;
+}
+.guest a{
+    color: #a43820 ;
+    text-decoration: none;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store || Details</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/details.css">
+
+</head>
+<body>
+    <div class="fixed">
+        <nav class="nav">
+            <div>
+                <a href="home.html" class="logo">EasyStore</a>
+            </div>
+            <div class="links">
+                <a href="home.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="icon" id="showCart">
+                <div class="count" id="count">0</div>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </div>
+    <div class="grid">
+        <div class="img-case case">
+            <img src="" id="image">
+        </div>
+        <div class="text">
+            <h1 id="title"></h1>
+            <div>
+                <h2 id="cat"></h2>
+                <h2 id="price"></h2>
+            </div>
+            <span id="dec"></span>
+            <div><button class="add" id="add">Add to cart</button></div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div class="cart-panel" id="cartPanel">
+            <h2>Your Cart</h2>
+    
+            <div id="cartItems"></div>
+            <button id="closeCart">Close</button>
+            <div class="qw">
+                <h3 class="to">Total: </h3>
+                <div class="total">
+                    <h3 class="total_text"></h3>
+                </div>
+            </div>
+            
+    
+         </div>
+     </div>
+
+    <script src="script/details.js"></script>
+</body>
+</html>
